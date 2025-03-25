@@ -2,7 +2,7 @@
 Dawn Validator BOT
 
 - Download Extension Here : [Dawn Validator](https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp?hl=en)
-- Use Code : 02lt4r
+- Use Code : 1t1dl7
 
 ## Features
 
@@ -23,10 +23,10 @@ Note: Dawn Server may be experiencing problems receiving requests, please be pat
 
 1. **Clone The Repositories:**
    ```bash
-   git clone https://github.com/vonssy/Dawn-BOT.git
+   git clone https://github.com/airdropbomb/Dawn.git
    ```
    ```bash
-   cd Dawn-BOT
+   cd Dawn
    ```
 
 2. **Install Requirements:**
