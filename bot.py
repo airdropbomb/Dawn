@@ -66,7 +66,7 @@ class DawnValidatorBot:
 
     @staticmethod
     def log(message: str, color: str = Colors.INFO, level: str = "INFO") -> None:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now().strftime("%Y-%m-d %H:%M:%S")
         print(f"[{timestamp}] {color}{message}{Colors.RESET}")
 
     def load_proxies(self) -> None:
@@ -279,7 +279,7 @@ class DawnValidatorBot:
 
     @staticmethod
     def display_welcome() -> None:
-    print("""
+        print("""
        █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗
       ██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝
       ███████║██║  ██║██████╔╝    ██╔██╗ ██║██║   ██║██║  ██║█████╗  
@@ -287,7 +287,7 @@ class DawnValidatorBot:
       ██║  ██║██████╔╝██████╔╝    ██║ ╚████║╚██████╔╝██████╔╝███████╗
       ╚═╝  ╚═╝╚═════╝ ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝  
         By : ADB NODE
-    """)
+        """)
 
     async def process_account(self, account: Dict[str, str]) -> Dict:
         email = account['email']
