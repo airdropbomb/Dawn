@@ -1,5 +1,4 @@
-aiohttp
-aiohttp-socks
-fake-useragent
+curl_cffi
 colorama
-pytz
+requests
+aiohttp
