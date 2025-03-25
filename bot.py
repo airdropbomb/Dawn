@@ -278,8 +278,7 @@ class DawnValidatorBot:
         return DawnValidatorBot._get_single_account() if mode == "1" else DawnValidatorBot._load_accounts_from_file()
 
     @staticmethod
-    def display_welcome() -> None:
-    print(f"{Colors.SUCCESS}")
+def display_welcome() -> None:
     print("""
        █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗
       ██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝
@@ -289,7 +288,6 @@ class DawnValidatorBot:
       ╚═╝  ╚═╝╚═════╝ ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝  
         By : ADB NODE
     """)
-    print(f"{Colors.RESET}")
 
     async def process_account(self, account: Dict[str, str]) -> Dict:
         email = account['email']
