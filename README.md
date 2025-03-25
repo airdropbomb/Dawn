@@ -7,9 +7,8 @@ Dawn Validator BOT
 ## Features
 
   - Auto Get Account Information
-  - Auto Run With [Monosans](https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/all.txt) Proxy - Choose 1
-  - Auto Run With Private Proxy - Choose 2
-  - Auto Run Without Proxy - Choose 3
+  - Auto Run With Private Proxy
+  - Auto Run Without Proxy
   - Auto Send Keep-Alive Every 5 Minutes
   - Multi Accounts With Threads
 
@@ -17,7 +16,7 @@ Note: Dawn Server may be experiencing problems receiving requests, please be pat
 
 ## Requiremnets
 
-- Make sure you have Python3.9 or higher installed and pip.
+- Make sure you have Python version 3.10 or Latest installed and pip.
 
 ## Instalation
 
@@ -36,21 +35,14 @@ Note: Dawn Server may be experiencing problems receiving requests, please be pat
 
 ## Configuration
 
-- **accounts.json:** You will find the file `accounts.json` inside the project directory. Make sure `accounts.json` contains data that matches the format expected by the script. Here are examples of file formats:
+- **accounts.txt:** Insert your account details in accounts.txt, with each line in the format email:token for each account, like:
   ```bash
-  [
-      {
-          "Email": "your_email_address 1",
-          "Token": "your_berear_token 1"
-      },
-      {
-          "Email": "your_email_address 2",
-          "Token": "your_berear_token 2"
-      }
-  ]
+email:token
+email:token
+email:token
   ```
 
-- **proxy.txt:** You will find the file `proxy.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
+- **proxies.txt:** You will find the file `proxies.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
   ```bash
     ip:port # Default Protcol HTTP.
     protocol://ip:port
@@ -65,12 +57,10 @@ python bot.py #or python3 bot.py
 
 ## Buy Me a Coffee
 
-- **EVM:** 0xe3c9ef9a39e9eb0582e5b147026cae524338521a
-- **TON:** UQBEFv58DC4FUrGqinBB5PAQS7TzXSm5c1Fn6nkiet8kmehB
-- **SOL:** E1xkaJYmAFEj28NPHKhjbf7GcvfdjKdvXju8d8AeSunf
-- **SUI:** 0xa03726ecbbe00b31df6a61d7a59d02a7eedc39fe269532ceab97852a04cf3347
+- **EVM:** 0x6Ff9f7991dDb946A096b937e5e02D9b7c422f89C
+- **SOL:** FbYFzZh4UqDxbfr47psQuQ1BAfD6r1kAzvsvsJdbXV1B
+
 
 Thank you for visiting this repository, don't forget to contribute in the form of follows and stars.
 If you have questions, find an issue, or have suggestions for improvement, feel free to contact me or open an *issue* in this GitHub repository.
 
-**vonssy**
