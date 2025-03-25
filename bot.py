@@ -278,7 +278,7 @@ class DawnValidatorBot:
         return DawnValidatorBot._get_single_account() if mode == "1" else DawnValidatorBot._load_accounts_from_file()
 
     @staticmethod
-def display_welcome() -> None:
+    def display_welcome() -> None:
     print("""
        █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗
       ██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝
