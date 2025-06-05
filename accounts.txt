@@ -1,3 +1,0 @@
-email:token
-email:token
-email:token
