@@ -35,12 +35,19 @@ Note: Dawn Server may be experiencing problems receiving requests, please be pat
 
 ## Configuration
 
-- **accounts.txt:** Insert your account details in accounts.txt, with each line in the format email:token for each account, like:
+- **accounts.json:** Insert your account details in accounts.txt, with each line in the format email:token for each account, like:
   
   ```bash
-  email:token
-  email:token
-  email:token
+[
+    {
+        "Email": "your_email_address 1",
+        "Token": "your_berear_token 1"
+    },
+    {
+        "Email": "your_email_address 2",
+        "Token": "your_berear_token 2"
+    }
+]
   ```
 
 - **proxies.txt:** You will find the file `proxies.txt` inside the project directory. Make sure `proxy.txt` contains data that matches the format expected by the script. Here are examples of file formats:
