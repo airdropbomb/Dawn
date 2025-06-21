@@ -1,22 +1,22 @@
 [
     {
         "Email": "your_email_address 1",
-        "Passoword": "password"
+        "Password": "password"
     },
     {
         "Email": "your_email_address 2",
-        "Passoword": "password"
+        "Password": "password"
     },
     {
         "Email": "your_email_address 3",
-        "Passoword": "password"
+        "Password": "password"
     },
     {
         "Email": "your_email_address 4",
-        "Passoword": "password"
+        "Password": "password"
     },
     {
         "Email": "your_email_address 5",
-        "Passoword": "password"
+        "Password": "password"
     }
 ]
