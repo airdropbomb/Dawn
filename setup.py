@@ -26,7 +26,6 @@ class Dawn:
         self.app_id = {}
         self.puzzle_id = {}
         self.puzzle_image = {}
-        self.answer = {}
 
     def clear_terminal(self):
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -37,7 +36,6 @@ class Dawn:
             f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}{message}",
             flush=True
         )
-
     def welcome(self):
         print(
             f"""
@@ -439,7 +437,7 @@ class Dawn:
                             continue
 
                         login = await self.user_login(email, puzzle_id, answer, proxy)
-                        if isinstance(login, dict) and login.get("status"):
+                        if isinstance(login, dict) and login.get("success"):
                             token = login["data"]["token"]
 
                             self.save_tokens([{"Email":email, "Token":token}])
